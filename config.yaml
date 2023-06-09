@@ -1,0 +1,6 @@
+name: NativeLibrary
+description: Bindings to `headers/example.h`.
+output: 'zmq_bindings.dart'
+headers:
+  entry-points:
+    - 'headers/zmq.h'
